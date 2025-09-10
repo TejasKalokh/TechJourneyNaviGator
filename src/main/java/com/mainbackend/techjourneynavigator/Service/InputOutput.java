@@ -18,7 +18,7 @@ public class InputOutput {
     @Autowired
     InputParamatersRepo inputParamatersRepo;
 
-    private final String API_KEY = "wRfCpyKocANaJoJ803AM3BZ66R2jov1sXLG1SACT";
+    private final String API_KEY = "";
     private final String API_URL = "https://api.cohere.ai/v1/chat";
     public ResponseEntity<String> sendparameters(InputParameters inputParameters) {
         inputParamatersRepo.save(inputParameters);
